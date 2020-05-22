@@ -95,12 +95,6 @@ vim-prettier will look for the executable in the same places it looks for
 Prettier by default will run on auto save but can also be manually triggered by:
 
 ```vim
-<Leader>p
-```
-
-or
-
-```vim
 :Prettier
 ```
 
@@ -151,12 +145,6 @@ You can check what is the resolved `prettier` cli version by:
 ```
 
 ### Configuration
-
-Change the mapping to run from the default of `<Leader>p`
-
-```vim
-nmap <Leader>py <Plug>(Prettier)
-```
 
 Enable auto formatting of files that have "@format" or "@prettier" tag
 

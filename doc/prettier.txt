@@ -65,10 +65,6 @@ USAGE                                                      *vim-prettier-usage*
 Prettier by default will run on auto save but can also 
 be manually triggered by:
 >
-  <Leader>p
-<
-or
->
   :Prettier
 <
 If your are on vim 8+ you can also trigger async formatting by:
